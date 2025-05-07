@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+  public abstract class Smartphone implements VideoPlayer, MusicPlayer {
+    @Override
+    public void playMusic() {
+        System.out.println("O smartphone está tocando música");
+    }
 
-public class Smartphone {
+    @Override
+    public void stopMusic() {
+        System.out.println("O smart phone está pausando a música");
+    }
+
 }
