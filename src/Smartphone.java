@@ -29,24 +29,5 @@ public class Smartphone implements VideoPlayer, MusicPlayer {
         System.out.println("O smartphone está pausando a música");
     }
 
-    @Override
-    public void fastForward() {
-        System.out.println();
-    }
-
-    @Override
-    public void nextTackMusic() {
-
-    }
-
-    @Override
-    public void rewind() {
-
-    }
-
-    @Override
-    public void previousTrackMusic() {
-
-    }
 
 }
