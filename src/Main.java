@@ -5,6 +5,7 @@ public class Main {
         VideoPlayer computer = new Computer();
         MusicPlayer musicBox = new MusicBox();
         VideoPlayer notebook = new Notebook();
+        Tablet tablet = new Tablet();
 
         playMusic(smartphone);
         playMusic(musicBox);
@@ -21,10 +22,18 @@ public class Main {
         stopMusic(smartphone);
         stopVideo(computer);
         stopMusic(musicBox);
-
+        System.out.println("\n");
         playVideo(notebook);
         pauseVideo(notebook);
         stopVideo(notebook);
+        System.out.println("\n");
+        playMusic(tablet);
+        pauseMusic(tablet);
+        stopMusic(tablet);
+        System.out.println("\n");
+        playVideo(tablet);
+        pauseVideo(tablet);
+        stopVideo(tablet);
     }
 
     public static void playMusic(MusicPlayer musicPlayer) {
