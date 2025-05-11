@@ -4,9 +4,9 @@ public class Main {
         MusicPlayer smartphone = new Smartphone();
         VideoPlayer computer = new Computer();
         MusicPlayer musicBox = new MusicBox();
+        VideoPlayer notebook = new Notebook();
 
         playMusic(smartphone);
-        playVideo(computer);
         playMusic(musicBox);
 
         System.out.println("\n");
@@ -22,6 +22,9 @@ public class Main {
         stopVideo(computer);
         stopMusic(musicBox);
 
+        playVideo(notebook);
+        pauseVideo(notebook);
+        stopVideo(notebook);
     }
 
     public static void playMusic(MusicPlayer musicPlayer) {
